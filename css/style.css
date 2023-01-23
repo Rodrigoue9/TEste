@@ -4,7 +4,10 @@
     --light: #F0FBFC;
     --dark: #181d38;
 }
-
+body{
+    max-width: 1440px;
+    margin: auto;
+}
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -431,4 +434,9 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+@media (max-width:450px){
+    .header-carousel .owl-nav{
+        display: none;
+    }
 }
